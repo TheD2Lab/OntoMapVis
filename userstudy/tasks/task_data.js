@@ -92,7 +92,16 @@ var taskDatasets = {
         "qtype": "creation", // missing mapping
         "question": "Is there any other mapping(s) that should be created between the ontologies but is currently absent from the visualization? List as many as you can (ex. \"AcademicEvent=Scientific_Event, SlideSet=Document,...\").",
         "atype": "pairs",
-        "answer": ["ConferenceDinner=Conference_Banquet","AcademicEvent=Scientific_Event","Place=Location","AcademiaOrganization=Academic_Institution","ConferenceEvent=Event","Organization=Organisation", "Author=Paper_Author","Topic=Research_Topic","Document=Document","RejectedPaper=Rejected_Paper","AcceptedPaper=Accepted_Paper","Workshop=Workshop","Person=Person","Paper=Paper","Attendee=Conference_Participant"] // multiple
+        "answer": [ // multiple (8)
+          "Organization=Organisation",
+          "Author=Paper_Author",
+          "Topic=Research_Topic",
+          "Document=Document",
+          "RejectedPaper=Rejected_Paper",
+          "Workshop=Workshop",
+          "Person=Person",
+          "Paper=Paper",
+        ] 
       },
     ]
   },
@@ -189,7 +198,16 @@ var taskDatasets = {
         "qtype": "creation", // missing mapping
         "question": "Is there any other mapping(s) that should be created between the ontologies but is currently absent from the visualization? List as many as you can (ex. \"Skin=skin, Skull=cranium,...\").",
         "atype": "pairs",
-        "answer": ["eyelash=Eyelash","cranium=Skull","leg=Leg","skin=Skin","visceral organ system=Vescera","Nasal_Mucus=nasalmucus","Muscle=muscle","Cartilage=cartilage","Cheek=cheek","Body_Fluid_or_Substance=bodyfluid/substance","Joint=joint","Blood=blood","Lip=lip","Arm=arm","Heart=heart"] // multiple
+        "answer": [ // multiple (8)
+          "Nasal_Mucus=nasalmucus",
+          "Muscle=muscle",
+          "Cartilage=cartilage",
+          "Cheek=cheek",
+          "Body_Fluid_or_Substance=bodyfluid/substance",
+          "Joint=joint",
+          "Blood=blood",
+          "Arm=arm",
+        ]
       },
     ]
   }
